@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "82716342349",
+    "firebase_url": "https://androidproject-39a6f.firebaseio.com",
+    "project_id": "androidproject-39a6f",
+    "storage_bucket": "androidproject-39a6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82716342349:android:4e350c00a31aa20f",
+        "android_client_info": {
+          "package_name": "com.amaan.inventorymanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82716342349-6hni1ieh3v8gg9m1tf7jrrifs0b722rp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amaan.inventorymanagementsystem",
+            "certificate_hash": "0d3c8b51f7ab8f4d56078bd63d9a61a5affb6c5b"
+          }
+        },
+        {
+          "client_id": "82716342349-i1btlhckhopacb9s07se7eovhdfmb6gt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtd7IEPNR6P2MXhv4ZWzC2Lbge5F4uTXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82716342349-i1btlhckhopacb9s07se7eovhdfmb6gt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

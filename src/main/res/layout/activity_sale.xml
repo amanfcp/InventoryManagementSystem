@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/saleUnits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/colorSecondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/saleUnitsPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/colorSecondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saleUnits" />
+
+    <TextView
+        android:id="@+id/saleTextView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="44dp"
+        android:text="@string/units"
+        android:textColor="@color/colorPrimaryLight"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/saleUnits"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/saleTextView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/sellingPrice"
+        android:textColor="@color/colorPrimaryLight"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/saleUnitsPrice"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saleTextView1" />
+
+    <TextView
+        android:id="@+id/saleTextview4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="80dp"
+        android:text="@string/totalCost"
+        android:textColor="@color/colorPrimaryLight"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/saleTotalCost"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saleTextView2" />
+
+    <TextView
+        android:id="@+id/saleTotalCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="113dp"
+        android:text="@string/totalInitial"
+        android:textColor="@color/colorSecondary"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saleUnitsPrice" />
+
+    <TextView
+        android:id="@+id/saleTextview5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/cash"
+        android:textColor="@color/colorPrimaryLight"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/saleCash"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saleTextview4" />
+
+    <TextView
+        android:id="@+id/saleTextview6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/accountReceivable"
+        android:textColor="@color/colorPrimaryLight"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/saleAccountReceivable"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saleTextview5" />
+
+    <EditText
+        android:id="@+id/saleCash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/colorSecondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saleTotalCost" />
+
+    <TextView
+        android:id="@+id/saleAccountReceivable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="112dp"
+        android:text="@string/totalInitial"
+        android:textColor="@color/colorSecondary"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saleCash" />
+
+    <Button
+        android:id="@+id/saleDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_ui"
+        android:onClick="saleDoneEvent"
+        android:text="@string/done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saleAccountReceivable" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

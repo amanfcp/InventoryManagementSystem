@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Inventory Management System</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signUpLink">Dont have any account? Sign up</string>
+    <string name="title_activity_signup">SIGNUP</string>
+    <string name="name">Name</string>
+    <string name="number">Number</string>
+    <string name="businessInfo">BUSINESS INFO</string>
+    <string name="businessName">Business Name</string>
+    <string name="businessType">Business Type</string>
+    <string name="getStarted">GET STARTED</string>
+    <string name="title_activity_nav_drawer">NavDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">Logout</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="accounts">Accounts</string>
+    <string name="account">Account</string>
+    <string name="fStatements">Financial Statements</string>
+    <string name="reports">Reports</string>
+
+    <string name="inventory">Inventory</string>
+    <string name="addCustSupp">Add Customer/Supplier</string>
+    <string name="transaction">Transaction</string>
+
+    <string name="sale">Sale</string>
+    <string name="purchase">Purchase</string>
+    <string name="expense">Expense</string>
+    <string name="payment">Payment</string>
+
+    <string name="units">Units</string>
+    <string name="unitsPrice">Units Price</string>
+    <string name="sellingPrice">Selling Price</string>
+    <string name="buyingPrice">Buying Price</string>
+    <string name="quantity">Quantity</string>
+
+    <string name="totalInitial">0000</string>
+    <string name="totalCost">Total Cost</string>
+
+
+    <string name="cash">Cash</string>
+
+    <string name="done">Done</string>
+
+    <string name="accountPayable">Account Payable</string>
+    <string name="accountReceivable">Account Receivable</string>
+    <string name="zero">0</string>
+
+    <string name="amanfcp">amanullah.fcp@gmail.com</string>
+    <string name="pw">aman1234</string>
+
+    <string-array name="buyingPriceList">
+        <item>0</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+    </string-array>
+
+    <string name="debit">Debit</string>
+    <string name="credit">Credit</string>
+    <string name="total">Total</string>
+
+</resources>
